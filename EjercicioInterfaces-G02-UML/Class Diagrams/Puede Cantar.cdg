@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Puede Cantar">
+  <ClassDiagramComponents>
+    <Interface name="PuedeCantar" package="" visibility="public" xPosition="386.0" yPosition="42.0">
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="Persona" package="" visibility="public" xPosition="117.0" yPosition="294.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gallo" package="" visibility="public" xPosition="403.0" yPosition="313.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Canario" package="" visibility="public" xPosition="649.0" yPosition="313.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Canario" target="PuedeCantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Gallo" target="PuedeCantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Persona" target="PuedeCantar"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
